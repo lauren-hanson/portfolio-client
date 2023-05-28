@@ -21,7 +21,7 @@ export const Login = () => {
             .then(res => res.json())
             .then(authInfo => {
                 if (authInfo.valid) {
-                    localStorage.setItem("honeyrae", JSON.stringify(authInfo))
+                    localStorage.setItem("portfolio", JSON.stringify(authInfo))
                     history.push("/")
                 } else {
                     existDialog.current.showModal()
@@ -38,7 +38,7 @@ export const Login = () => {
 
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
-                    <h1>Honey Rae's Repairs</h1>
+                    <h1>Lauren Hanson</h1>
                     <h2>Please sign in</h2>
                     <fieldset>
                         <label htmlFor="inputEmail"> Email address </label>

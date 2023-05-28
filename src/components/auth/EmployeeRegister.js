@@ -26,7 +26,7 @@ export const EmployeeRegister = (props) => {
                 });
             })
             .then(createdUser => {
-                localStorage.setItem("honeyrae", JSON.stringify(createdUser))
+                localStorage.setItem("portofolio", JSON.stringify(createdUser))
                 history.push("/")
             })
             .catch(error => {

@@ -16,7 +16,7 @@ export const Repairs = () => {
     <>
       <Route
         render={() => {
-          if (localStorage.getItem("honeyrae")) {
+          if (localStorage.getItem("Portfolio")) {
             if (isStaff()) {
               return <>
                   <EmployeeNavBar />

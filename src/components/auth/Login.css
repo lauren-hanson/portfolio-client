@@ -30,7 +30,7 @@ fieldset {
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-image: url(./honeyrae.png);
+    /* background-image: url(./honeyrae.png); */
     background-size: cover;
 }
 

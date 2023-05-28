@@ -26,7 +26,7 @@ export const Register = () => {
                 });
             })
             .then(createdUser => {
-                localStorage.setItem("honeyrae", JSON.stringify(createdUser))
+                localStorage.setItem("portfolio", JSON.stringify(createdUser))
                 history.push("/")
             })
             .catch(error => {
